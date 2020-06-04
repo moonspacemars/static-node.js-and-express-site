@@ -6,8 +6,8 @@
             "description": "1. Display random quotes when clicking the Show another quote button. 2. The background color changes when a new quote displays.3. The quote changes automatically every 12 seconds.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://moonspacemars.github.io/a-random-quote-generator/",
-            "github_link ": "https://github.com/moonspacemars/a-random-quote-generator",
-            "image_urls": ["/static/images/project1_main2.jpg"]
+            "github_link": "https://github.com/moonspacemars/a-random-quote-generator",
+            "image_urls": ["/static/images/project1_main2.jpg", "/static/images/project1_a1.jpg", "/static/images/project1_a2.jpg", "/static/images/project1_a3.jpg"] 
         },
         {
             "id": 1,
@@ -15,7 +15,7 @@
             "description": "Display 10 students information per page",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://moonspacemars.github.io/list-pagination-and-filtering/",
-            "github_link " :"https://github.com/moonspacemars/list-pagination-and-filtering#list-pagination-and-filtering",
+            "github_link" :"https://github.com/moonspacemars/list-pagination-and-filtering#list-pagination-and-filtering",
             "image_urls": ["/static/images/project1_a1.jpg"]
         }
 

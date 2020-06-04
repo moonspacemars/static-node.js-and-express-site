@@ -24,7 +24,7 @@ app.get('/about', (req,res) =>{
 data.projects.forEach((item)=>{
     app.get(`/projects/${item.id}`, (req,res) =>{
         // res.send('<h1>projects</h1>');
-        res.render('project',{data});
+        res.render('project',{data,item});
     });
     }
 )

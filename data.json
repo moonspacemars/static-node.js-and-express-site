@@ -3,28 +3,101 @@
         {
             "id": 0,
             "project_name": "A random quote generator",
-            "description": "1. Display random quotes when clicking the Show another quote button. 2. The background color changes when a new quote displays.3. The quote changes automatically every 12 seconds.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "description": "This app displays random quote and background color every 12 seconds or when you click the Show another quote button.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live_link": "https://moonspacemars.github.io/a-random-quote-generator/",
             "github_link": "https://github.com/moonspacemars/a-random-quote-generator",
-            "image_urls": ["/static/images/project1_main2.jpg", "/static/images/project1_a1.jpg", "/static/images/project1_a2.jpg", "/static/images/project1_a3.jpg"] 
+            "image_urls": [
+                "/static/images/project1_main.jpg",
+                "/static/images/project1_a1.jpg",
+                "/static/images/project1_a2.jpg",
+                "/static/images/project1_a3.jpg"
+            ]
         },
         {
             "id": 1,
             "project_name": "List Pagination and Filtering",
-            "description": "Display 10 students information per page",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "description": "This app displays 10 students information per page with pagination button showing dynamically. Besides, the search bar can serach students by key words.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live_link": "https://moonspacemars.github.io/list-pagination-and-filtering/",
-            "github_link" :"https://github.com/moonspacemars/list-pagination-and-filtering#list-pagination-and-filtering",
-            "image_urls": ["/static/images/project1_a1.jpg"]
-        }
+            "github_link": "https://github.com/moonspacemars/list-pagination-and-filtering#list-pagination-and-filtering",
+            "image_urls": [
+                "/static/images/project2_main.jpg",
+                "/static/images/project2_a1.jpg",
+                "/static/images/project2_a2.jpg",
+                "/static/images/project2_a3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive form",
+            "description": "This is a registration form for a fictional conference called FullStack Conf. This app checks input fields including name, email, activities, payment info fields and give error message if they are not valid. Besides, activities checkboxes disable when time conflicts and the T-shirt color shows depend on the design.",
+            "technologies":[
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://moonspacemars.github.io/interactive-form",
+            "github_link":"https://github.com/moonspacemars/interactive-form",
+            "image_urls": [
+                "/static/images/project3_main.jpg",
+                "/static/images/project3_a1.jpg",
+                "/static/images/project3_a2.jpg",
+                "/static/images/project3_a3.jpg"                
 
-
-
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter",
+            "description": "This is a word guessing game. There are 5 problems and 5 chances for each problem. When the player clicks the Start Game button, the program generates a random problem from the problem group. The program resets all status when a new problem begins.",
+            "technologies":[
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://moonspacemars.github.io/OOP-game-show-app/",
+            "github_link": "https://github.com/moonspacemars/OOP-game-show-app", 
+            "image_urls": [
+                "/static/images/project4_main.jpg",
+                "/static/images/project4_a1.jpg",
+                "/static/images/project4_a2.jpg",
+                "/static/images/project4_a3.jpg" 
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Request",
+            "description": "This is a web for a fictional company called Awesome Startup. The app use the  Random User Generator API to query information for 12 random data as employees. The modal window for detail information pops up when clicking each employee card.",
+            "technologies":[
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Web API"
+            ],
+            "live_link": "https://moonspacemars.github.io/public-api-request/",
+            "github_link": "https://github.com/moonspacemars/public-api-request",
+            "image_urls": [
+                "/static/images/project5_main.jpg",
+                "/static/images/project5_a1.jpg",
+                "/static/images/project5_a2.jpg",
+                "/static/images/project5_a3.jpg"           
+            ]
+        }                      
+                
     ],
-    "profile":{
+    "profile": {
         "name": "Wei Ting",
-        "image": "/static/images/profile.jpg"
+        "image": "/static/images/profile.jpg",
+        "description":"This website records my learning projects about web development. My journey to web technology starts from here.",
+        "portfolio_description":"This portfolio demonstrates the web techs I learned from front-end to back-end."
     }
-
 }
